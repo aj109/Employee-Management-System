@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "CrudOperationCore.Controllers.CrudController",
+    "Method": "GetAll",
+    "RelativePath": "api/Crud",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudOperationCore.Controllers.CrudController",
+    "Method": "Add",
+    "RelativePath": "api/Crud",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addCrudOperationDto",
+        "Type": "CrudOperationCore.Models.AddCrudOperationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudOperationCore.Controllers.CrudController",
+    "Method": "GetByID",
+    "RelativePath": "api/Crud/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudOperationCore.Controllers.CrudController",
+    "Method": "UpdateCrud",
+    "RelativePath": "api/Crud/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateCrudOperation",
+        "Type": "CrudOperationCore.Models.UpdateCrudOperation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudOperationCore.Controllers.CrudController",
+    "Method": "Delete",
+    "RelativePath": "api/Crud/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
